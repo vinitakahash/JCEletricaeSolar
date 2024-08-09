@@ -191,6 +191,8 @@
 /* celular 576px */
 @media (max-width: 576px){
 
+    .sobre > .aviso{width: 80%;}
+
     html, body{overflow-x: hidden;}
 
     .navbar-items{display: none;}
