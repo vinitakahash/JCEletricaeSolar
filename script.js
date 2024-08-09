@@ -22,10 +22,10 @@ function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "./img/icon/menu_white_36dp.svg";
+        document.querySelector('.icon').src = "menu_white_36dp.svg";
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "./img/icon/close_white_36dp.svg";
+        document.querySelector('.icon').src = "close_white_36dp.svg";
     }
 }
 
@@ -126,9 +126,9 @@ function open_menu_materiais(){
     document.getElementById('plan-name-manutencao').style.color = '#111'
     document.getElementById('plan-name-materiais').style.color = '#ef6a01'
 
-    iconMateriais.src = './img/icon/icone-laranja.png';
-    iconManutencao.src = './img/icon/icone-azul.png';
-    iconInstalacao.src = './img/icon/icone-azul.png';
+    iconMateriais.src = 'icone-laranja.png';
+    iconManutencao.src = 'icone-azul.png';
+    iconInstalacao.src = 'icone-azul.png';
 }
 
 
@@ -154,9 +154,9 @@ function open_menu_instalacao(){
     document.getElementById('plan-name-manutencao').style.color = '#111'
     document.getElementById('plan-name-materiais').style.color = '#111'
 
-    iconMateriais.src = './img/icon/icone-azul.png';
-    iconManutencao.src = './img/icon/icone-azul.png';
-    iconInstalacao.src = './img/icon/icone-laranja.png';
+    iconMateriais.src = 'icone-azul.png';
+    iconManutencao.src = 'icone-azul.png';
+    iconInstalacao.src = 'icone-laranja.png';
 }
 
 
@@ -181,7 +181,7 @@ function open_menu_sistema(){
     document.getElementById('plan-name-manutencao').style.color = '#ef6a01'
     document.getElementById('plan-name-materiais').style.color = '#111'
 
-    iconMateriais.src = './img/icon/icone-azul.png';
-    iconManutencao.src = './img/icon/icone-laranja.png';
-    iconInstalacao.src = './img/icon/icone-azul.png';
+    iconMateriais.src = 'icone-azul.png';
+    iconManutencao.src = 'icone-laranja.png';
+    iconInstalacao.src = 'icone-azul.png';
 }
