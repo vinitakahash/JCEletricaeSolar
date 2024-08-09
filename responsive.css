@@ -1,0 +1,365 @@
+
+/* ------ */
+/* responsividade */
+/* small lapptops a partir de 11400px */
+
+@media screen and (max-width: 2000px){
+    .nav-manual, .nav-auto{margin-top: 40%;}
+
+    .img-desktop{display: block;}
+    .img-mobile{display: none;}
+    
+    .botao-slides{
+        padding: 1rem;
+        margin-left: 35rem;
+    }
+}
+
+@media screen and (max-width: 1428px){
+    .nav-manual, .nav-auto{margin-top: 38.5%;}
+
+    .botao-slides{
+        padding: 1rem;
+        margin-left: 23rem;
+    }
+
+
+
+
+}
+
+@media (max-width: 1100px){
+
+    .nav-manual, .nav-auto{margin-top: 34%;}
+
+    .plans-container{width: 95%;}
+    .plan{margin: 0 5px;}
+
+    .main-banner p{
+        font-size: 25px; 
+        width: 400px;}
+
+    .main-banner img{right: 10px;}
+
+    .botao-slides{
+        padding: 1rem;
+        margin-left: 15.9rem;
+    }
+    .botao-slides a{
+        font-size: 12px;
+    }
+    
+    .nav-auto, .nav-manual{margin-top: 37%;}
+    .nav-manual .manual-btn, .nav-auto div{padding: 8px;}
+}
+
+@media (max-width: 1100px){
+    .botao-slides{
+        padding: 1rem;
+        margin-left: 18.9rem;
+    }
+}
+
+@media(max-width: 980px){
+    .botao-slides{
+        margin-left: 17.9rem;
+    }
+}
+
+/* tablet 900px */
+@media (max-width: 900px){
+
+    .navbar-items li{margin-left: 30px;}
+
+    .default-btn{margin-right: 30px;}
+
+    .searchdomain-container{padding: 2rem 4rem;}
+
+    .botao-slides{
+        padding: 1rem;
+        margin-left: 14.6rem;
+    }
+    .botao-slides a{
+        font-size: 12px;
+    }
+    
+    .nav-auto, .nav-manual{margin-top: 37%;}
+    .nav-manual .manual-btn, .nav-auto div{padding: 8px;}
+}
+
+
+@media (max-width:834px){
+    .main-banner h1{
+        font-size: 35px; 
+        width: 250px;}
+
+    .main-banner img{
+        width: 400px; 
+        top: 200px;} 
+
+        .botao-slides{
+            padding: 5px;
+            margin-left: 13.5rem;
+        }
+        .botao-slides a{
+            font-size: 12px;
+        }
+        
+        .nav-auto, .nav-manual{margin-top: 37%;}
+        .nav-manual .manual-btn, .nav-auto div{padding: 7px;}
+}
+
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1rem 4rem;}
+
+    .nav-item {
+        display: none;}
+
+    .login-button {
+        display: none;}
+
+    .mobile-menu-icon {display: block;}
+
+    .mobile-menu-icon button {
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer;}
+
+    .mobile-menu ul {display: flex; 
+        flex-direction: column; 
+        text-align: center; 
+        padding-bottom: 1rem;}
+
+    .mobile-menu .nav-item {
+        display: block; 
+        padding-top: 2rem;}
+
+    .mobile-menu .login-button {
+        display: block; 
+        padding: 1rem 2rem;}
+
+    .mobile-menu .login-button button {
+        width: 100%; 
+        padding: 9px;}
+
+    .open {display: block;}
+
+    .header-contatos{display: none;}
+
+    .nav-auto, .nav-manual{margin-top: 32%;}
+    .nav-manual .manual-btn, .nav-auto div{padding: 8px;}
+
+    .botao-slides{
+        padding: 5px;
+        margin-left: 12rem;
+    }
+    .botao-slides a{
+        font-size: 12px;
+    }
+    
+    .nav-auto, .nav-manual{margin-top: 37%;}
+    .nav-manual .manual-btn, .nav-auto div{padding: 7px;}
+}
+
+@media (max-width: 666px){
+
+    .navbar-items li{
+        margin-left: 10px; 
+        font-size: 14px;}
+
+    .default-btn{
+        margin-right: 10px; 
+        padding: 10px 2px;}
+    
+    .main-banner img{display: none;}
+    .main-container p{margin-bottom: 100px;}
+
+    .botao-slides{
+        padding: 5px;
+        margin-left: 10rem;
+    }
+    .botao-slides a{
+        font-size: 12px;
+    }
+
+    .nav-auto, .nav-manual{margin-top: 37%;}
+    .nav-manual .manual-btn, .nav-auto div{padding: 7px;}
+}
+
+/* celular 576px */
+@media (max-width: 576px){
+
+    html, body{overflow-x: hidden;}
+
+    .navbar-items{display: none;}
+
+    .services-container ul{flex-direction: column;}
+
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;}
+
+    .plan{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+        margin-top: 100px;}
+
+    .contact-container{padding: 3rem 2rem;}
+
+    .contact-container input,
+    .contact-container textarea{
+        width: 100%;
+        margin: 10px 0;}
+
+    .searchdomain-container h2{font-size: 28px;}
+
+    .searchdomain-container input[type="text"]
+    ,input[type="number"]{
+        width: 100%;}
+
+    .sobre img{
+        margin-top: 100px; 
+        width: 68%; 
+        height: 58%;}
+
+    .sobre p{width: 350px;}
+
+    .main-container{
+        display: flex; 
+        flex-direction: column; 
+        height: auto; 
+        text-align: center;}
+
+    #button-soli{display: none;}
+
+    .main-banner h1, .main-banner p{
+        margin-left: 60px;}
+
+    .openModalBtn{width: 80%; padding: 10px; height: 50px;}
+
+    .botao-slides{display: none;}
+
+    #background-elemento{background-size: 100% 100%;}
+    
+    .contact-container .elemento{width: 100%;}
+    .contact-container .logo-branca{width: 85%;}
+
+
+}
+
+
+
+
+@media screen and (max-width:444px){
+    
+    
+    .nav-manual, .nav-auto{
+        margin-top: 155%;}
+
+    .nav-manual .manual-btn, .nav-auto div{padding: 8px;}
+
+    .searchdomain-container input[type="text"]
+    ,input[type="number"]{
+        width: 100%;}
+
+    .contact-container textarea{height: 80px;}
+    .contact-container .circle{
+        height: 150px; 
+        width: 150px;}
+
+    .pricing-container{background-size: 105% 30vh;}
+    .pricing-container p{font-size: 16px; width: 200px; margin: auto;}
+
+    #aviso{width: 80%;}
+
+    .logo-branca{width: 10%;}
+
+    .contact-container h2{font-size: 23px;}
+
+
+    .modal-content-instalacao{width: 90%;}
+    
+    caption{font-size: 15px;}
+    
+    .sobre > p{width: 280px; font-size: 15px;}
+    
+    .plan .price{
+        width: 130px;
+        height: 135px;}
+        
+        #price-instalacao img{
+            height: 140px;
+            margin-top: 10px;}
+            
+            
+            #price-materiais img{
+                margin-top: 10px;
+                margin-left: -33px;
+                height: 140px;}
+                
+                #price-manutencao img{
+                    height: 150px;
+                    margin-right:-18px;
+                    margin-top: -15px;}
+                    
+                    .plan .plan-btn-solicitar, #plan-btn-recommended{
+                        border-radius: 20px;
+                        font-size: 19px;
+                        height: 50px;
+                        line-height: 50px;
+                        width: 50%;
+                        margin: auto;}
+                        
+                        .openModalBtn{
+                            border-radius: 10px;
+                            padding: 15px;
+                            margin-top: 20px;
+                            width: 80%;
+                            height: 50%;}
+                            
+                            .servico, .preco{font-size: 14px;}
+                            
+                            .contact-container p{
+                                font-size: 13px;
+                                width: 90%;}
+                                
+                                .icones{width: 65px;}
+                                
+                                .img-desktop{display: none;}
+                                .img-mobile{display: block;}
+
+                            }
+@media screen and (max-width:380px){
+
+    .nav-manual, .nav-auto{margin-top: 159%;}
+    .nav-manual .manual-btn, .nav-auto div{border: 1px solid #00205b;}
+
+    .searchdomain-container input[type="text"],
+    input[type="number"]{
+        width: 140%;
+        margin: 0px 0px 0px -40px;
+    }
+
+    .sobre > p{width: 280px; font-size: 14px;}
+
+    .logo img{width: 100px; left: 30px;}
+
+   
+}
+
+    
+@media screen and (max-width:280px){
+    .img-desktop{display: none;}
+    .img-mobile{display: block;}
+    .nav-manual, .nav-auto{margin-top: 160%;}
+
+    #icon-instalacao{margin-left: -60px;}
+    #icon-manutencao{margin-left: -60px;}
+    #icon-materiais{margin-left: -60px;}
+
+}
+
